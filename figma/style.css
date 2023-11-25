@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+}
+
+
+#nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+}
+#nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+#nav-socialmedia{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10%;
+}
+
+#hero-section{
+    background-image: url();
+}
